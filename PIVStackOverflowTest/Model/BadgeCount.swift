@@ -13,3 +13,9 @@ struct BadgeCount: Codable{
     var silver: Int?
     var gold: Int?
 }
+
+extension BadgeCount: Equatable {
+    static func == (lhs: BadgeCount, rhs: BadgeCount) -> Bool {
+        return lhs.bronze == rhs.bronze && lhs.silver == rhs.silver && lhs.gold == rhs.gold 
+    }
+}

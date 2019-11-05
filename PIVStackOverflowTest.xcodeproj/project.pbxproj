@@ -13,7 +13,6 @@
 		0EC4B1B82370BF91009B91AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC4B1B72370BF91009B91AD /* Assets.xcassets */; };
 		0EC4B1BB2370BF91009B91AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC4B1B92370BF91009B91AD /* LaunchScreen.storyboard */; };
 		0EC4B1C62370BF91009B91AD /* PIVStackOverflowTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4B1C52370BF91009B91AD /* PIVStackOverflowTestTests.swift */; };
-		0EC4B1D12370BF91009B91AD /* PIVStackOverflowTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4B1D02370BF91009B91AD /* PIVStackOverflowTestUITests.swift */; };
 		0EC4B1F22370C05B009B91AD /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4B1E02370C05B009B91AD /* ImageDownloader.swift */; };
 		0EC4B1F32370C05B009B91AD /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4B1E22370C05B009B91AD /* ParameterEncoding.swift */; };
 		0EC4B1F42370C05B009B91AD /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4B1E32370C05B009B91AD /* URLParameterEncoding.swift */; };
@@ -35,20 +34,17 @@
 		0EE99D182371EB4F006A37EF /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D172371EB4F006A37EF /* UsersViewModel.swift */; };
 		0EE99D5A2371F17F006A37EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D592371F17E006A37EF /* SceneDelegate.swift */; };
 		0EE99D5C2371FC4B006A37EF /* BadgeCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D5B2371FC4B006A37EF /* BadgeCount.swift */; };
-		C1B28A147723C6B3BA16E1D9 /* Pods_PIVStackOverflowTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085C5B1748C647B74181EDE4 /* Pods_PIVStackOverflowTestUITests.framework */; };
+		0EE99D6423720F87006A37EF /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D6323720F87006A37EF /* UserTableView.swift */; };
+		0EE99D6C23721377006A37EF /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D6623721376006A37EF /* UserTests.swift */; };
+		0EE99D6D23721377006A37EF /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D6723721376006A37EF /* NetworkTests.swift */; };
+		0EE99D6E23721377006A37EF /* UsersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D6823721376006A37EF /* UsersViewModelTests.swift */; };
+		0EE99D7023721377006A37EF /* UsersTableVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE99D6A23721376006A37EF /* UsersTableVCTests.swift */; };
 		D161BD6387F0168B62DF9BE2 /* Pods_PIVStackOverflowTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C10240A3BD4CF1BF4AA2F8 /* Pods_PIVStackOverflowTest.framework */; };
 		F70909AE8436B38DB272A164 /* Pods_PIVStackOverflowTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFFDF18FB5BA1F6BEE8C3D6 /* Pods_PIVStackOverflowTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0EC4B1C22370BF91009B91AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EC4B1A32370BF8F009B91AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EC4B1AA2370BF8F009B91AD;
-			remoteInfo = PIVStackOverflowTest;
-		};
-		0EC4B1CD2370BF91009B91AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0EC4B1A32370BF8F009B91AD /* Project object */;
 			proxyType = 1;
@@ -69,9 +65,6 @@
 		0EC4B1C12370BF91009B91AD /* PIVStackOverflowTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIVStackOverflowTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC4B1C52370BF91009B91AD /* PIVStackOverflowTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIVStackOverflowTestTests.swift; sourceTree = "<group>"; };
 		0EC4B1C72370BF91009B91AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EC4B1CC2370BF91009B91AD /* PIVStackOverflowTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIVStackOverflowTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EC4B1D02370BF91009B91AD /* PIVStackOverflowTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIVStackOverflowTestUITests.swift; sourceTree = "<group>"; };
-		0EC4B1D22370BF91009B91AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EC4B1E02370C05B009B91AD /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		0EC4B1E22370C05B009B91AD /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		0EC4B1E32370C05B009B91AD /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
@@ -93,6 +86,11 @@
 		0EE99D172371EB4F006A37EF /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
 		0EE99D592371F17E006A37EF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EE99D5B2371FC4B006A37EF /* BadgeCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCount.swift; sourceTree = "<group>"; };
+		0EE99D6323720F87006A37EF /* UserTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableView.swift; sourceTree = "<group>"; };
+		0EE99D6623721376006A37EF /* UserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		0EE99D6723721376006A37EF /* NetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		0EE99D6823721376006A37EF /* UsersViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewModelTests.swift; sourceTree = "<group>"; };
+		0EE99D6A23721376006A37EF /* UsersTableVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableVCTests.swift; sourceTree = "<group>"; };
 		25DC612D406D86C22B3D9B67 /* Pods-PIVStackOverflowTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIVStackOverflowTestTests.debug.xcconfig"; path = "Target Support Files/Pods-PIVStackOverflowTestTests/Pods-PIVStackOverflowTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		26C10240A3BD4CF1BF4AA2F8 /* Pods_PIVStackOverflowTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIVStackOverflowTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F849C9E29C88673DC211491 /* Pods-PIVStackOverflowTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIVStackOverflowTestTests.release.xcconfig"; path = "Target Support Files/Pods-PIVStackOverflowTestTests/Pods-PIVStackOverflowTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,14 +118,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EC4B1C92370BF91009B91AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1B28A147723C6B3BA16E1D9 /* Pods_PIVStackOverflowTestUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -136,7 +126,6 @@
 			children = (
 				0EC4B1AD2370BF8F009B91AD /* PIVStackOverflowTest */,
 				0EC4B1C42370BF91009B91AD /* PIVStackOverflowTestTests */,
-				0EC4B1CF2370BF91009B91AD /* PIVStackOverflowTestUITests */,
 				0EC4B1AC2370BF8F009B91AD /* Products */,
 				986674BDA884A78A3A73D549 /* Pods */,
 				52A8FFEFBC0BED2FD672B926 /* Frameworks */,
@@ -148,7 +137,6 @@
 			children = (
 				0EC4B1AB2370BF8F009B91AD /* PIVStackOverflowTest.app */,
 				0EC4B1C12370BF91009B91AD /* PIVStackOverflowTestTests.xctest */,
-				0EC4B1CC2370BF91009B91AD /* PIVStackOverflowTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,18 +161,13 @@
 			isa = PBXGroup;
 			children = (
 				0EC4B1C52370BF91009B91AD /* PIVStackOverflowTestTests.swift */,
+				0EE99D6723721376006A37EF /* NetworkTests.swift */,
+				0EE99D6623721376006A37EF /* UserTests.swift */,
+				0EE99D6823721376006A37EF /* UsersViewModelTests.swift */,
+				0EE99D6A23721376006A37EF /* UsersTableVCTests.swift */,
 				0EC4B1C72370BF91009B91AD /* Info.plist */,
 			);
 			path = PIVStackOverflowTestTests;
-			sourceTree = "<group>";
-		};
-		0EC4B1CF2370BF91009B91AD /* PIVStackOverflowTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4B1D02370BF91009B91AD /* PIVStackOverflowTestUITests.swift */,
-				0EC4B1D22370BF91009B91AD /* Info.plist */,
-			);
-			path = PIVStackOverflowTestUITests;
 			sourceTree = "<group>";
 		};
 		0EC4B1DE2370C05B009B91AD /* Networking */ = {
@@ -277,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				0EE99D102371EAAF006A37EF /* UserTableViewCell.swift */,
+				0EE99D6323720F87006A37EF /* UserTableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -381,25 +365,6 @@
 			productReference = 0EC4B1C12370BF91009B91AD /* PIVStackOverflowTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0EC4B1CB2370BF91009B91AD /* PIVStackOverflowTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EC4B1DB2370BF91009B91AD /* Build configuration list for PBXNativeTarget "PIVStackOverflowTestUITests" */;
-			buildPhases = (
-				8D4048784B052FBAA8011126 /* [CP] Check Pods Manifest.lock */,
-				0EC4B1C82370BF91009B91AD /* Sources */,
-				0EC4B1C92370BF91009B91AD /* Frameworks */,
-				0EC4B1CA2370BF91009B91AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EC4B1CE2370BF91009B91AD /* PBXTargetDependency */,
-			);
-			name = PIVStackOverflowTestUITests;
-			productName = PIVStackOverflowTestUITests;
-			productReference = 0EC4B1CC2370BF91009B91AD /* PIVStackOverflowTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -414,10 +379,6 @@
 						CreatedOnToolsVersion = 11.2;
 					};
 					0EC4B1C02370BF91009B91AD = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = 0EC4B1AA2370BF8F009B91AD;
-					};
-					0EC4B1CB2370BF91009B91AD = {
 						CreatedOnToolsVersion = 11.2;
 						TestTargetID = 0EC4B1AA2370BF8F009B91AD;
 					};
@@ -438,7 +399,6 @@
 			targets = (
 				0EC4B1AA2370BF8F009B91AD /* PIVStackOverflowTest */,
 				0EC4B1C02370BF91009B91AD /* PIVStackOverflowTestTests */,
-				0EC4B1CB2370BF91009B91AD /* PIVStackOverflowTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -455,13 +415,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0EC4B1BF2370BF91009B91AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC4B1CA2370BF91009B91AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,28 +439,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PIVStackOverflowTest/Pods-PIVStackOverflowTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D4048784B052FBAA8011126 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PIVStackOverflowTestUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DAB09286E343CD1625FCDBA7 /* [CP] Check Pods Manifest.lock */ = {
@@ -561,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE99D6423720F87006A37EF /* UserTableView.swift in Sources */,
 				0EE99D162371EB1C006A37EF /* UIView+Extensions.swift in Sources */,
 				0EE99D182371EB4F006A37EF /* UsersViewModel.swift in Sources */,
 				0EC4B1FD2370C05B009B91AD /* HTTPUrlResponse.swift in Sources */,
@@ -591,15 +523,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE99D6E23721377006A37EF /* UsersViewModelTests.swift in Sources */,
+				0EE99D6D23721377006A37EF /* NetworkTests.swift in Sources */,
+				0EE99D6C23721377006A37EF /* UserTests.swift in Sources */,
 				0EC4B1C62370BF91009B91AD /* PIVStackOverflowTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC4B1C82370BF91009B91AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EC4B1D12370BF91009B91AD /* PIVStackOverflowTestUITests.swift in Sources */,
+				0EE99D7023721377006A37EF /* UsersTableVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,11 +538,6 @@
 			isa = PBXTargetDependency;
 			target = 0EC4B1AA2370BF8F009B91AD /* PIVStackOverflowTest */;
 			targetProxy = 0EC4B1C22370BF91009B91AD /* PBXContainerItemProxy */;
-		};
-		0EC4B1CE2370BF91009B91AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0EC4B1AA2370BF8F009B91AD /* PIVStackOverflowTest */;
-			targetProxy = 0EC4B1CD2370BF91009B91AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -832,46 +755,6 @@
 			};
 			name = Release;
 		};
-		0EC4B1DC2370BF91009B91AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 756366C32F67C4EA431EBF73 /* Pods-PIVStackOverflowTestUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PIVStackOverflowTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.PIVStackOverflowTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PIVStackOverflowTest;
-			};
-			name = Debug;
-		};
-		0EC4B1DD2370BF91009B91AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB49DE75DB8A83FC5D6AC004 /* Pods-PIVStackOverflowTestUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PIVStackOverflowTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.PIVStackOverflowTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PIVStackOverflowTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -898,15 +781,6 @@
 			buildConfigurations = (
 				0EC4B1D92370BF91009B91AD /* Debug */,
 				0EC4B1DA2370BF91009B91AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0EC4B1DB2370BF91009B91AD /* Build configuration list for PBXNativeTarget "PIVStackOverflowTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0EC4B1DC2370BF91009B91AD /* Debug */,
-				0EC4B1DD2370BF91009B91AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -22,6 +22,12 @@ extension User: Codable{
     }
 }
 
+extension User: Equatable {
+    static func == (lhs: User, rhs: User) -> Bool {
+        return lhs.userName == rhs.userName && lhs.badgeCount == rhs.badgeCount && lhs.profileImageUrl == rhs.profileImageUrl
+    }
+}
+
 struct Wrapper<T: Decodable>: Decodable {
     let items: [T]
 }

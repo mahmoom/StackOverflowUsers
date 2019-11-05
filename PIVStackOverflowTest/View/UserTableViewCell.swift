@@ -10,7 +10,6 @@ import UIKit
 
 class UserTableViewCell: UITableViewCell {
     
-    
     let userNameLabel: UILabel = {
         let l = UILabel()
         l.sizeToFit()
@@ -48,6 +47,7 @@ class UserTableViewCell: UITableViewCell {
         imageView.layer.cornerRadius = 24
         imageView.layer.masksToBounds = true
         imageView.contentMode = .scaleAspectFill
+        imageView.backgroundColor = .gray
         return imageView
     }()
     

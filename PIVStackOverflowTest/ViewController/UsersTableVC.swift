@@ -10,20 +10,33 @@ import UIKit
 
 class UsersTableVC: UITableViewController {
     
+    //MARK: Outlet Variables
+    var userTableView: UserTableView!
+    unowned var activityIndicator: UIActivityIndicatorView {return userTableView.activityIndicator}
+    unowned var emptyTableLabel: UILabel {return userTableView.emptyTableLabel}
+    
+    //MARK: Variables
     var users: [User]? {
         didSet {
             DispatchQueue.main.async { [weak self] in
                 if self?.users == nil {
-//                    self?.emptyTableLabel.isHidden = false
+                    self?.emptyTableLabel.isHidden = false
                 } else {
-//                    self?.emptyTableLabel.isHidden = true
+                    self?.emptyTableLabel.isHidden = true
                 }
-//                self?.activityIndicator.stopAnimating()
+                self?.activityIndicator.stopAnimating()
                 self?.tableView.reloadData()
             }
         }
     }
-
+    
+    //MARK: VC life cycle
+    override func loadView() {
+        super.loadView()
+        userTableView = UserTableView(frame: view.frame, style: .plain)
+        tableView = userTableView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
@@ -57,7 +70,7 @@ class UsersTableVC: UITableViewController {
 
 }
 
-//datasource
+//MARK: datasource
 extension UsersTableVC{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
